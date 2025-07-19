@@ -205,7 +205,7 @@ const Header = (props) => {
   const classes = useStyles();
   const theme = useTheme();
   const smaller = useMediaQuery(theme.breakpoints.down("sm"));
-  const iOS = process.browser && /iPad|iPhone|iPod/.test(navigator.userAgent);
+const iOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
 
   const [anchorEl, setAnchorEl] = useState(null);
   const [openMenu, setOpenMenu] = useState(false);

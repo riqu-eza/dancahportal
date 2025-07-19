@@ -1046,7 +1046,7 @@ const Estimate = (props) => {
         <Grid
           container
           direction="row"
-          justify="space-around"
+          justifyContent="space-around"
           style={{ marginTop: "3em", marginBottom: "2.5em" }}
         >
           <Grid item>
@@ -1111,7 +1111,7 @@ const Estimate = (props) => {
           <Typography variant="h4">Estimate</Typography>
         </DialogTitle>
         <DialogContent>
-          <Grid container justify="space-around">
+          <Grid container justifyContent="space-around">
             <Grid
               item
               container
@@ -1167,14 +1167,14 @@ const Estimate = (props) => {
                 />
               </Grid>
               <Grid item style={{ marginTop: "1.5em" }}>
-                <Typography variant="body1" align="justify" paragraph>
+                <Typography variant="body1" align="justifyContent" paragraph>
                   We can create this digital solution for an estimated{" "}
                   <span className={classes.specialText}>
                     ${estimate.toFixed(2)}
                   </span>
                   .
                 </Typography>
-                <Typography variant="body1" align="justify" paragraph>
+                <Typography variant="body1" align="justifyContent" paragraph>
                   Fill out your name, phone number and email to place your
                   request, and we'll get back to you with details moving forward
                   and a final price.

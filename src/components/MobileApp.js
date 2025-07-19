@@ -84,7 +84,7 @@ const MobileApps = (props) => {
         item
         container
         direction="row"
-        justify={medium ? "space-around" : "center"}
+        justifyContent={medium ? "space-around" : "center"}
         className={classes.rowContainer}
         style={{
           marginTop: medium ? "1rem" : "2rem",
@@ -223,7 +223,7 @@ const MobileApps = (props) => {
         container
         direction={smaller ? "column" : "row"}
         alignItems={smaller ? "center" : undefined}
-        justify="space-around"
+        justifyContent="space-around"
         className={classes.rowContainer}
       >
         <Grid

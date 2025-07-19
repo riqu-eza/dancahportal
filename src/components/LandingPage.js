@@ -167,21 +167,21 @@ const LandingPage = (props) => {
   const smallest = useMediaQuery(theme.breakpoints.down("xs"));
   const smaller = useMediaQuery(theme.breakpoints.down("sm"));
   const softwareIconJSX = (
-    <Grid container justify={smaller ? "center" : undefined}>
+    <Grid container justifyContent={smaller ? "center" : undefined}>
       <Grid item className={classes.serviceIcon}>
         <img src={softwareIcon} alt="Software Icon" />
       </Grid>
     </Grid>
   );
   const websiteIconJSX = (
-    <Grid container justify={smaller ? "center" : undefined}>
+    <Grid container justifyContent={smaller ? "center" : undefined}>
       <Grid item className={classes.serviceIcon}>
         <img src={webIcon} alt="Software Icon" />
       </Grid>
     </Grid>
   );
   const mobileIconJSX = (
-    <Grid container justify={smaller ? "center" : undefined}>
+    <Grid container justifyContent={smaller ? "center" : undefined}>
       <Grid
         item
         className={classes.serviceIcon}
@@ -206,7 +206,7 @@ const LandingPage = (props) => {
         {/* ------- Hero Block --------- */}
         <Grid
           container
-          justify={smaller ? "center" : "flex-end"}
+          justifyContent={smaller ? "center" : "flex-end"}
           alignItems="center"
         >
           <Grid item md className={classes.heroTextContainer}>
@@ -215,7 +215,7 @@ const LandingPage = (props) => {
             </Typography>
             <Grid
               container
-              justify="center"
+              justifyContent="center"
               className={classes.buttonContainer}
             >
               <Grid item>
@@ -261,7 +261,7 @@ const LandingPage = (props) => {
           container
           direction="row"
           className={classes.softDevContainer}
-          justify={smaller ? "center" : undefined}
+          justifyContent={smaller ? "center" : undefined}
         >
           <Grid
             item
@@ -302,7 +302,7 @@ const LandingPage = (props) => {
           container
           direction="row"
           className={classes.devContainer}
-          justify={smaller ? "center" : "flex-end"}
+          justifyContent={smaller ? "center" : "flex-end"}
         >
           <Grid item style={{ textAlign: smaller ? "center" : undefined }}>
             {smaller ? mobileIconJSX : ""}
@@ -340,7 +340,7 @@ const LandingPage = (props) => {
           container
           direction="row"
           className={classes.devContainer}
-          justify={smaller ? "center" : undefined}
+          justifyContent={smaller ? "center" : undefined}
         >
           <Grid
             item
@@ -379,7 +379,7 @@ const LandingPage = (props) => {
         <Grid
           container
           alignItems="center"
-          justify="center"
+          justifyContent="center"
           style={{ height: "50em" }}
           className={classes.devContainer}
         >

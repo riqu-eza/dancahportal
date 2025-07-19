@@ -62,7 +62,7 @@ const Websites = (props) => {
         container
         direction="row"
         className={classes.rowContainer}
-        justify={medium ? "space-around" : "center"}
+        justifyContent={medium ? "space-around" : "center"}
         style={{
           marginTop: medium ? "1rem" : "2rem",
         }}
@@ -137,7 +137,7 @@ const Websites = (props) => {
         container
         direction="row"
         alignItems="center"
-        justify={smaller ? "center" : "flex-start"}
+        justifyContent={smaller ? "center" : "flex-start"}
         className={classes.rowContainer}
       >
         <Grid item>
@@ -170,7 +170,7 @@ const Websites = (props) => {
         container
         direction="row"
         alignItems="center"
-        justify={smaller ? "center" : "flex-end"}
+        justifyContent={smaller ? "center" : "flex-end"}
         className={classes.rowContainer}
       >
         <Grid item>
@@ -204,7 +204,7 @@ const Websites = (props) => {
         container
         direction="row"
         alignItems="center"
-        justify={smaller ? "center" : "flex-start"}
+        justifyContent={smaller ? "center" : "flex-start"}
         className={classes.rowContainer}
       >
         <Grid item>
@@ -236,7 +236,7 @@ const Websites = (props) => {
         container
         direction="row"
         alignItems="center"
-        justify={smaller ? "center" : "flex-end"}
+        justifyContent={smaller ? "center" : "flex-end"}
         className={classes.rowContainer}
       >
         <Grid item>

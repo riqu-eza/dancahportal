@@ -148,7 +148,7 @@ const Revolution = (props) => {
         container
         direction="row"
         alignItems="center"
-        justify="center"
+        justifyContent="center"
         className={classes.rowContainer}
       >
         <Grid
@@ -176,7 +176,7 @@ const Revolution = (props) => {
               Vision
             </Typography>
           </Grid>
-          <Grid item style={{ textAlign: smallest ? "center" : "justify" }}>
+          <Grid item style={{ textAlign: smallest ? "center" : "justifyContent" }}>
             <Typography variant="body1" paragraph>
               The rise of computers, and subsequently the Internet, has
               completely altered every aspect of human life. This has increased
@@ -213,7 +213,7 @@ const Revolution = (props) => {
         container
         direction="row"
         alignItems="center"
-        justify="center"
+        justifyContent="center"
         className={classes.rowContainer}
       >
         {medium ? technologyAnimationJSX : null}
@@ -234,7 +234,7 @@ const Revolution = (props) => {
               Technology
             </Typography>
           </Grid>
-          <Grid item style={{ textAlign: smallest ? "center" : "justify" }}>
+          <Grid item style={{ textAlign: smallest ? "center" : "justifyContent" }}>
             <Typography variant="body1" paragraph>
               In 2013, Facebook invented a new way of building websites. This
               new system, React.js, completely revolutionizes the process and
@@ -286,7 +286,7 @@ const Revolution = (props) => {
         container
         direction="row"
         alignItems="center"
-        justify="center"
+        justifyContent="center"
         className={classes.processRowContainer}
         style={{ backgroundColor: "#B3B3B3" }}
       >
@@ -310,7 +310,7 @@ const Revolution = (props) => {
               Consultation
             </Typography>
           </Grid>
-          <Grid item style={{ textAlign: smallest ? "center" : "justify" }}>
+          <Grid item style={{ textAlign: smallest ? "center" : "justifyContent" }}>
             <Typography variant="body1" style={{ color: "#f8f8f3" }} paragraph>
               Our process begins the moment you realize you need a piece of
               technology for your business. Whether you already have an idea for
@@ -336,7 +336,7 @@ const Revolution = (props) => {
         container
         direction="row"
         alignItems="center"
-        justify="center"
+        justifyContent="center"
         className={classes.processRowContainer}
         style={{ backgroundColor: "#ff7373" }}
       >
@@ -360,7 +360,7 @@ const Revolution = (props) => {
               Mockup
             </Typography>
           </Grid>
-          <Grid item style={{ textAlign: smallest ? "center" : "justify" }}>
+          <Grid item style={{ textAlign: smallest ? "center" : "justifyContent" }}>
             <Typography variant="body1" style={{ color: "#f8f8f3" }} paragraph>
               After we settle on the best path forward and decide on a solution
               to pursue, details like the cost and timeline will be finalized.
@@ -382,7 +382,7 @@ const Revolution = (props) => {
         container
         direction="row"
         alignItems="center"
-        justify="center"
+        justifyContent="center"
         className={classes.processRowContainer}
         style={{ backgroundColor: "#39B54A" }}
       >
@@ -406,7 +406,7 @@ const Revolution = (props) => {
               Review
             </Typography>
           </Grid>
-          <Grid item style={{ textAlign: smallest ? "center" : "justify" }}>
+          <Grid item style={{ textAlign: smallest ? "center" : "justifyContent" }}>
             <Typography variant="body1" style={{ color: "#f8f8f3" }} paragraph>
               Before moving any farther we come back to you with our progress.
               This gives you the freedom to discuss any changes you may want or
@@ -429,7 +429,7 @@ const Revolution = (props) => {
         container
         direction="row"
         alignItems="center"
-        justify="center"
+        justifyContent="center"
         className={classes.processRowContainer}
         style={{ backgroundColor: "#A67C52" }}
       >
@@ -453,7 +453,7 @@ const Revolution = (props) => {
               Design
             </Typography>
           </Grid>
-          <Grid item style={{ textAlign: smallest ? "center" : "justify" }}>
+          <Grid item style={{ textAlign: smallest ? "center" : "justifyContent" }}>
             <Typography variant="body1" style={{ color: "#f8f8f3" }} paragraph>
               Using the mockups and notes taken during the consultation as
               guides, we will start ironing out what the final product will look
@@ -472,7 +472,7 @@ const Revolution = (props) => {
         container
         direction="row"
         alignItems="center"
-        justify="center"
+        justifyContent="center"
         className={classes.processRowContainer}
         style={{ backgroundColor: "#39B54A" }}
       >
@@ -496,7 +496,7 @@ const Revolution = (props) => {
               Review
             </Typography>
           </Grid>
-          <Grid item style={{ textAlign: smallest ? "center" : "justify" }}>
+          <Grid item style={{ textAlign: smallest ? "center" : "justifyContent" }}>
             <Typography variant="body1" style={{ color: "#f8f8f3" }} paragraph>
               A second round of review is essential to our goal of creating
               exactly what you want, exactly how you want it.
@@ -514,7 +514,7 @@ const Revolution = (props) => {
         container
         direction="row"
         alignItems="center"
-        justify="center"
+        justifyContent="center"
         className={classes.processRowContainer}
         style={{ backgroundColor: "#FBB03B" }}
       >
@@ -538,7 +538,7 @@ const Revolution = (props) => {
               Build
             </Typography>
           </Grid>
-          <Grid item style={{ textAlign: smallest ? "center" : "justify" }}>
+          <Grid item style={{ textAlign: smallest ? "center" : "justifyContent" }}>
             <Typography variant="body1" style={{ color: "#f5f5f5" }} paragraph>
               Here’s where we get down to business.
             </Typography>
@@ -574,7 +574,7 @@ const Revolution = (props) => {
         container
         direction="row"
         alignItems="center"
-        justify="center"
+        justifyContent="center"
         className={classes.processRowContainer}
         style={{ backgroundColor: "#C1272D" }}
       >
@@ -598,7 +598,7 @@ const Revolution = (props) => {
               Launch
             </Typography>
           </Grid>
-          <Grid item style={{ textAlign: smallest ? "center" : "justify" }}>
+          <Grid item style={{ textAlign: smallest ? "center" : "justifyContent" }}>
             <Typography variant="body1" style={{ color: "#f8f8f3" }} paragraph>
               The moment we’ve all been waiting for.
             </Typography>
@@ -621,7 +621,7 @@ const Revolution = (props) => {
         container
         direction="row"
         alignItems="center"
-        justify="center"
+        justifyContent="center"
         className={classes.processRowContainer}
         style={{ backgroundColor: "#8E45CE" }}
       >
@@ -645,7 +645,7 @@ const Revolution = (props) => {
               Maintain
             </Typography>
           </Grid>
-          <Grid item style={{ textAlign: smallest ? "center" : "justify" }}>
+          <Grid item style={{ textAlign: smallest ? "center" : "justifyContent" }}>
             <Typography variant="body1" style={{ color: "#f8f8f3" }} paragraph>
               Our work doesn’t end there.
             </Typography>
@@ -667,7 +667,7 @@ const Revolution = (props) => {
         container
         direction="row"
         alignItems="center"
-        justify="center"
+        justifyContent="center"
         className={classes.processRowContainer}
         style={{ backgroundColor: "#29ABE2" }}
       >
@@ -691,7 +691,7 @@ const Revolution = (props) => {
               Iterate
             </Typography>
           </Grid>
-          <Grid item style={{ textAlign: smallest ? "center" : "justify" }}>
+          <Grid item style={{ textAlign: smallest ? "center" : "justifyContent" }}>
             <Typography variant="body1" style={{ color: "#f8f8f3" }} paragraph>
               The cycle repeats whenever you come up with a new idea for
               extending your current project, or come up with a brand new system

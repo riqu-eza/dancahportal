@@ -209,7 +209,7 @@ const Contact = (props) => {
           </Typography>
           <Typography variant="subtitle1">We are waiting.</Typography>
         </Grid>
-        <Grid item container alignItems="center" justify="center">
+        <Grid item container alignItems="center" justifyContentContent="center">
           <Grid item>
             <img
               src={phoneIcon}
@@ -228,7 +228,7 @@ const Contact = (props) => {
             </Typography>
           </Grid>
         </Grid>
-        <Grid item container alignItems="center" justify="center">
+        <Grid item container alignItems="center" justifyContentContent="center">
           <Grid item>
             <img
               src={emailIcon}
@@ -250,7 +250,7 @@ const Contact = (props) => {
         <Grid
           item
           container
-          justify="center"
+          justifyContentContent="center"
           style={{ maxWidth: smallest ? "80%" : "25em", marginTop: "2em" }}
         >
           <Grid item style={{ width: "100%", marginTop: "0.5em" }}>
@@ -290,7 +290,7 @@ const Contact = (props) => {
         <Grid
           item
           container
-          justify="center"
+          justifyContentContent="center"
           style={{ maxWidth: smallest ? "80%" : "25em" }}
         >
           <Grid item style={{ width: "100%" }}>
@@ -398,7 +398,7 @@ const Contact = (props) => {
             <Grid
               item
               container
-              justify="flex-end"
+              justifyContentContent="flex-end"
               style={{ marginTop: "1em" }}
             >
               <Grid item style={{ marginRight: "0.5rem" }}>

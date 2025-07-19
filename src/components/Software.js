@@ -159,7 +159,7 @@ const Software = (props) => {
         item
         container
         direction="row"
-        justify={medium ? "space-around" : "center"}
+        justifyContent={medium ? "space-around" : "center"}
         className={classes.rowContainer}
         style={{
           marginTop: medium ? "1rem" : "2rem",
@@ -247,7 +247,7 @@ const Software = (props) => {
         direction={smallest ? "column" : "row"}
         alignItems={smallest ? "center" : undefined}
         style={{marginTop: "-5em"}}
-        justify="center"
+        justifyContent="center"
         className={classes.rowContainer}
       >
         <Grid
@@ -301,7 +301,7 @@ const Software = (props) => {
         container
         direction={medium ? "column" : "row"}
         alignItems={smaller ? "center" : "inherit"}
-        justify="space-around"
+        justifyContent="space-around"
         className={classes.rowContainer}
       >
         <Grid
@@ -408,7 +408,7 @@ const Software = (props) => {
         className={classes.rowContainer}
         direction={medium ? "column" : "row"}
         alignItems={smaller ? "center" : "inherit"}
-        justify="space-around"
+        justifyContent="space-around"
       >
         <Grid
           item

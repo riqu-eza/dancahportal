@@ -45,7 +45,7 @@ const useStyles = makeStyles((theme) => ({
     paddingLeft: "2rem",
     [theme.breakpoints.down("md")]: {
       marginTop: "0.5rem",
-      justifyContent: "flex-end",
+      justifyContentContent: "flex-end",
       paddingRight: "9%",
       margin: 0,
     },
@@ -102,7 +102,7 @@ const Footer = (props) => {
         <Grid
           item
           container
-          justify="center"
+          justifyContent="center"
           className={classes.mainContainer}
           spacing={medium ? 5 : 10}
         >
@@ -310,7 +310,7 @@ const Footer = (props) => {
         <Grid
           item
           container
-          justify={smaller ? "center" : "flex-end"}
+          justifyContent={smaller ? "center" : "flex-end"}
           className={classes.mediaIconsContainer}
         >
           <Grid

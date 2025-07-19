@@ -121,7 +121,7 @@ const About = (props) => {
           About Us
         </Typography>
       </Grid>
-      <Grid item container justify="center" className={classes.rowContainer}>
+      <Grid item container justifyContent="center" className={classes.rowContainer}>
         <Typography variant="h4" align="center" className={classes.statement}>
           Whether it be person, business to consumer, or an individual to their
           interests, technology is meant to bring us closer to what we care
@@ -134,7 +134,7 @@ const About = (props) => {
         container
         direction="row"
         alignItems="center"
-        justify="center"
+        justifyContent="center"
         className={classes.rowContainer}
       >
         {medium ? historyJSX : null}
@@ -155,7 +155,7 @@ const About = (props) => {
               History
             </Typography>
           </Grid>
-          <Grid item style={{ textAlign: smallest ? "center" : "justify" }}>
+          <Grid item style={{ textAlign: smallest ? "center" : "justifyContent" }}>
             <Typography variant="body1" paragraph>
               We’re the new kid on the block.
             </Typography>
@@ -192,7 +192,7 @@ const About = (props) => {
       <Grid
         container
         direction="row"
-        justify="space-around"
+        justifyContent="space-around"
         style={{ marginTop: 0 }}
         className={classes.rowContainer}
       >
@@ -221,7 +221,7 @@ const About = (props) => {
             style={{
               maxWidth: "100%",
               marginTop: "1.5rem",
-              textAlign: smallest ? "center " : "justify",
+              textAlign: smallest ? "center " : "justifyContent",
             }}
           >
             <Typography variant="body1" paragraph>
@@ -263,7 +263,7 @@ const About = (props) => {
             style={{
               maxWidth: "100%",
               marginTop: "1.5rem",
-              textAlign: smallest ? "center " : "justify",
+              textAlign: smallest ? "center " : "justifyContent",
             }}
           >
             <Typography variant="body1" paragraph>
@@ -303,7 +303,7 @@ const About = (props) => {
             style={{
               maxWidth: "100%",
               marginTop: "1.5rem",
-              textAlign: smallest ? "center " : "justify",
+              textAlign: smallest ? "center " : "justifyContent",
             }}
           >
             <Typography variant="body1" paragraph>

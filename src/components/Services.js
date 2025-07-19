@@ -103,21 +103,21 @@ const Services = (props) => {
   const smaller = useMediaQuery(theme.breakpoints.down("sm"));
 
   const softwareIconJSX = (
-    <Grid container justify={smaller ? "center" : undefined} >
+    <Grid container justifyContent={smaller ? "center" : undefined} >
       <Grid item className={classes.serviceIcon}>
         <img src={softwareIcon} alt="Software Icon" />
       </Grid>
     </Grid>
   );
   const websiteIconJSX = (
-    <Grid container justify={smaller ? "center" : undefined} style={{marginRight: smaller ? 0 : "5em",}}>
+    <Grid container justifyContent={smaller ? "center" : undefined} style={{marginRight: smaller ? 0 : "5em",}}>
       <Grid item className={classes.serviceIcon}>
         <img src={webIcon} alt="Software Icon" />
       </Grid>
     </Grid>
   );
   const mobileIconJSX = (
-    <Grid container justify={smaller ? "center" : undefined}>
+    <Grid container justifyContent={smaller ? "center" : undefined}>
       <Grid
         item
         className={classes.serviceIcon}
@@ -130,7 +130,7 @@ const Services = (props) => {
 
   return (
     <Grid container direction="column">
-        <Grid item container className={classes.serviceLabelContainer} justify={smaller ? "center" : "flex-start"} style={{paddingLeft: smaller ? "20px" : "5em", marginTop: "2em"}}>
+        <Grid item container className={classes.serviceLabelContainer} justifyContent={smaller ? "center" : "flex-start"} style={{paddingLeft: smaller ? "20px" : "5em", marginTop: "2em"}}>
             <Typography variant="h2">Services</Typography>
         </Grid>
       <Grid item>
@@ -139,7 +139,7 @@ const Services = (props) => {
           container
           direction="row"
           className={classes.devContainer}
-          justify={smaller ? "center" : "flex-end"}
+          justifyContent={smaller ? "center" : "flex-end"}
         >
           <Grid item className={classes.appDevDescription} style={{ textAlign: smaller ? "center" : undefined }}>
             {smaller ? mobileIconJSX : ""}
@@ -176,7 +176,7 @@ const Services = (props) => {
           container
           direction="row"
           className={classes.devContainer}
-          justify={smaller ? "center" : undefined}
+          justifyContent={smaller ? "center" : undefined}
         >
           <Grid
             item
@@ -218,7 +218,7 @@ const Services = (props) => {
           container
           direction="row"
           className={classes.webDevContainer}
-          justify={smaller ? "center" : "flex-end"}
+          justifyContent={smaller ? "center" : "flex-end"}
         >
           <Grid
             item
