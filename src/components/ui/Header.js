@@ -26,7 +26,7 @@ import AccordionSummary from "@material-ui/core/AccordionSummary";
 import AccordionDetails from "@material-ui/core/AccordionDetails";
 import ExpandMore from "@material-ui/icons/ExpandMore";
 
-import logo from "../../assets/logo.jpg";
+import logo from "../../assets/logo.png";
 
 const useStyles = makeStyles((theme) => ({
   toolbarMargin: {
