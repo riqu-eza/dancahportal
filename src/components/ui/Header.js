@@ -77,7 +77,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   menu: {
-    backgroundColor: theme.palette.common.orange,
+    backgroundColor: theme.palette.common.blue,
     marginTop: "7px",
   },
   menuItem: {
@@ -108,7 +108,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   drawer: {
-    backgroundColor: theme.palette.common.orange,
+    backgroundColor: theme.palette.common.blue,
   },
   drawerItem: {
     ...theme.typography.tab,
@@ -139,7 +139,7 @@ const useStyles = makeStyles((theme) => ({
     zIndex: theme.zIndex.modal + 1,
   },
   accordian: {
-    backgroundColor: theme.palette.common.orange,
+    backgroundColor: theme.palette.common.blue,
     "&.Mui-expanded": {
       margin: 0,
       borderBottom: 0,
@@ -158,7 +158,7 @@ const useStyles = makeStyles((theme) => ({
     textDecoration: "none",
   },
   accordianSummary: {
-    backgroundColor: theme.palette.common.orange,
+    backgroundColor: theme.palette.common.blue,
     "&:hover": {
       backgroundColor: "rgba(0, 0, 0, 0.08)",
     },
@@ -435,7 +435,7 @@ const iOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
           />
         ))}
       </Tabs>
-      <Button
+      {/* <Button
         onClick={() => props.setValue(5)}
         component={Link}
         to="/estimate"
@@ -444,7 +444,7 @@ const iOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
         className={classes.button}
       >
         Get Estimate
-      </Button>
+      </Button> */}
 
       <Popper
         open={openMenu}

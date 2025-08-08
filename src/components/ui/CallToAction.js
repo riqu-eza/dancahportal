@@ -111,7 +111,7 @@ const CallToAction = (props) => {
               <ButtonArrow width={25} height={18} fill="black" />
             </Button>
           </Grid>
-          <Grid item>
+          {/* <Grid item>
             <Button
               component={Link}
               to="/estimate"
@@ -125,7 +125,7 @@ const CallToAction = (props) => {
               Get Estimate
               <ButtonArrow width={25} height={18} fill="black" />
             </Button>
-          </Grid>
+          </Grid> */}
         </Grid>
       </Grid>
       {/* HINT: a background image can be set directly on the Grid Container

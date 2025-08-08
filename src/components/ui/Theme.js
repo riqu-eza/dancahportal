@@ -1,7 +1,7 @@
 import { createTheme } from "@material-ui/core/styles";
 
 const blue = "#166EE9";
-const orange = "#E99116";
+const orange = "#82C8E5";
 const hoverBlue = "#0050C0";
 const linkColor = "#000000";
 const mygrey = "#696969";

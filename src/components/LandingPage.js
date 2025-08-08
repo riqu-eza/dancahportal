@@ -132,7 +132,6 @@ const useStyles = makeStyles((theme) => ({
     backgroundRepeat: "no-repeat",
     height: "100%",
     width: "100%",
-    
   },
   revolutionCard: {
     position: "absolute",
@@ -211,7 +210,8 @@ const LandingPage = (props) => {
         >
           <Grid item md className={classes.heroTextContainer}>
             <Typography variant="h2" align="center">
-              IT`S TIME
+              You’ve stepped into the workshop of minds where need gave birth
+              to new-age infrastructure.{" "}
             </Typography>
             <Grid
               container
@@ -219,7 +219,7 @@ const LandingPage = (props) => {
               className={classes.buttonContainer}
             >
               <Grid item>
-                <Button
+                {/* <Button
                   component={Link}
                   to="/estimate"
                   onClick={() => {
@@ -231,7 +231,7 @@ const LandingPage = (props) => {
                   className={classes.estimate}
                 >
                   Get Estimate
-                </Button>
+                </Button> */}
               </Grid>
               <Grid item>
                 <Button
