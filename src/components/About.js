@@ -8,6 +8,8 @@ import CallToAction from "../components/ui/CallToAction.js";
 import history from "../assets/history.svg";
 // import founder from "../assets/founder.jpg";
 import founder2 from "../assets/me.jpg";
+import founder4 from "../assets/mobilelanding.png";
+import { Link } from "@material-ui/core";
 // import founder3 from "../assets/founder3.jpg";
 
 const useStyles = makeStyles((theme) => ({
@@ -121,7 +123,12 @@ const About = (props) => {
           About Us
         </Typography>
       </Grid>
-      <Grid item container justifyContent="center" className={classes.rowContainer}>
+      <Grid
+        item
+        container
+        justifyContent="center"
+        className={classes.rowContainer}
+      >
         <Typography variant="h4" align="center" className={classes.statement}>
           Whether it be person, business to consumer, or an individual to their
           interests, technology is meant to bring us closer to what we care
@@ -155,7 +162,10 @@ const About = (props) => {
               History
             </Typography>
           </Grid>
-          <Grid item style={{ textAlign: smallest ? "center" : "justifyContent" }}>
+          <Grid
+            item
+            style={{ textAlign: smallest ? "center" : "justifyContent" }}
+          >
             <Typography variant="body1" paragraph>
               We’re the new kid on the block.
             </Typography>
@@ -185,6 +195,59 @@ const About = (props) => {
           </Grid>
         </Grid>
         {medium ? null : historyJSX}
+      </Grid>
+      <Grid item className={classes.heading} align="center">
+        <Typography variant="h3">Work Done</Typography>
+      </Grid>
+      <Grid
+        container
+        direction="row"
+        justifyContent="space-around"
+        style={{ marginTop: 0 }}
+        className={classes.rowContainer}
+      >
+        <Grid
+          item
+          container
+          direction="column"
+          className={classes.teamCardContainer}
+          lg
+        >
+          <Grid item align="center">
+              <Link href="https://next-hotel-delta.vercel.app/" target="_blank" rel="noopener noreferrer"></Link>
+            <Avatar
+              src={founder4}
+              className={classes.avatar}
+              alt="founder's headshot"
+            />
+          </Grid>
+          <Grid item style={{ marginTop: "2rem", textAlign: "center" }}>
+            <Typography variant="h4">Hotel/Listing Website</Typography>
+            <Typography variant="caption" gutterBottom>
+              Fully functional website for a hotel, with booking and
+              reservation system.
+            </Typography>
+          </Grid>
+          <Grid
+            item
+            style={{
+              maxWidth: "100%",
+              marginTop: "1.5rem",
+              textAlign: smallest ? "center " : "justifyContent",
+            }}
+          >
+         
+            <Typography variant="body1" paragraph>
+              These websites are built with the latest technologies,
+              including next.js and MongoDB, ensuring a modern and
+              efficient user experience. They are designed to be responsive,
+              adapting seamlessly to various devices and screen sizes. The
+              booking and reservation systems are integrated to provide a smooth
+              and user-friendly interface for customers to make reservations
+              and manage their bookings easily.
+            </Typography>
+          </Grid>
+        </Grid>
       </Grid>
       <Grid item className={classes.heading} align="center">
         <Typography variant="h3">Team</Typography>

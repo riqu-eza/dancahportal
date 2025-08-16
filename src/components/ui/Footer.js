@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
@@ -101,15 +102,18 @@ const Footer = (props) => {
         </Grid>
       </Grid>
       <Grid container className={classes.mediaIconsContainer}>
-        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.facebook.com/profile.php?id=61574756750367" target="_blank" rel="noopener noreferrer">
           <img src={facebook} alt="Facebook" className={classes.icon} />
         </a>
-        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/dancah._/" target="_blank" rel="noopener noreferrer">
           <img src={instagram} alt="Instagram" className={classes.icon} />
         </a>
-        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://x.com/K_Muthunga" target="_blank" rel="noopener noreferrer">
           <img src={twitter} alt="Twitter" className={classes.icon} />
         </a>
+        {/* <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+          <img src={twitter} alt="Twitter" className={classes.icon} />
+        </a> */}
       </Grid>
       {/* <Grid item className={classes.adornment}>
         {smaller ? <MobileFooterAdornment /> : <FooterAdornment />}
