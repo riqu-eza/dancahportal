@@ -26,7 +26,7 @@ import AccordionSummary from "@material-ui/core/AccordionSummary";
 import AccordionDetails from "@material-ui/core/AccordionDetails";
 import ExpandMore from "@material-ui/icons/ExpandMore";
 
-import logo from "../../assets/logo.png";
+import logomono from "../../assets/logotwin.png";
 
 const useStyles = makeStyles((theme) => ({
   toolbarMargin: {
@@ -44,7 +44,7 @@ const useStyles = makeStyles((theme) => ({
     padding: 0,
   },
   logo: {
-    height: "6.5em",
+    height: "5.6em",
     [theme.breakpoints.down("md")]: {
       height: "4.9em",
     },
@@ -532,7 +532,7 @@ const iOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
               to="/"
               onClick={handleCompanyLogo}
             >
-              <img src={logo} className={classes.logo} alt="company logo" />
+              <img src={logomono} className={classes.logo} alt="company logo" />
             </Button>
             {smaller ? drawer : tabs}
           </Toolbar>
