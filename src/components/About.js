@@ -214,13 +214,15 @@ const About = (props) => {
           lg
         >
           <Grid item align="center">
-              <Link href="https://next-hotel-delta.vercel.app/" target="_blank" rel="noopener noreferrer"></Link>
+              <Link href="https://next-hotel-delta.vercel.app/" target="_blank" rel="noopener noreferrer">
             <Avatar
               src={founder4}
               className={classes.avatar}
               alt="founder's headshot"
             />
+            </Link>
           </Grid>
+
           <Grid item style={{ marginTop: "2rem", textAlign: "center" }}>
             <Typography variant="h4">Hotel/Listing Website</Typography>
             <Typography variant="caption" gutterBottom>
